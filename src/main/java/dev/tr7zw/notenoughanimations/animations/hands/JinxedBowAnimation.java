@@ -15,11 +15,11 @@ import net.minecraft.util.Mth;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.HumanoidArm;
 
-public class CustomBowAnimation extends BasicAnimation {
+public class JinxedBowAnimation extends BasicAnimation {
 
     @Override
     public boolean isEnabled() {
-        return NEABaseMod.config.bowAnimation == BowAnimation.CUSTOM_V1;
+        return NEABaseMod.config.bowAnimation == BowAnimation.Jinxed;
     }
 
     private ArmPose rightArmPose;

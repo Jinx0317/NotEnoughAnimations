@@ -14,6 +14,7 @@ import dev.tr7zw.notenoughanimations.animations.fullbody.LadderAnimation;
 import dev.tr7zw.notenoughanimations.animations.fullbody.PassengerAnimation;
 import dev.tr7zw.notenoughanimations.animations.hands.BoatAnimation;
 import dev.tr7zw.notenoughanimations.animations.hands.CustomBowAnimation;
+import dev.tr7zw.notenoughanimations.animations.hands.JinxedBowAnimation;
 import dev.tr7zw.notenoughanimations.animations.hands.EatDrinkAnimation;
 import dev.tr7zw.notenoughanimations.animations.hands.HorseAnimation;
 import dev.tr7zw.notenoughanimations.animations.hands.HugAnimation;
@@ -111,6 +112,7 @@ public class AnimationProvider {
         addAnimation(new FallingAnimation());
         addAnimation(new HugAnimation());
         addAnimation(new NarutoRunningAnimation());
+        addAnimation(new JinxedBowAnimation());
         addAnimation(new CustomBowAnimation());
         // spotless:off
         //#if MC >= 11700
